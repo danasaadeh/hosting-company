@@ -6,6 +6,10 @@
   --discount: #ffe87a;
   --black: #000000;
 }
+.body {
+  font-family: "Poppins", "Rubik", system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial;
+}
 .black {
   color: var(--black);
 }
