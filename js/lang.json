@@ -1,0 +1,242 @@
+{
+  "en": {
+    "navbar": {
+      "services": "Our Services",
+      "about": "About",
+      "blogs": "Blogs & News",
+      "contact": "Contact",
+      "account": "Account",
+      "phone": "+2349067322844"
+    },
+    "hero": {
+      "title": "Premium Web Hosting for Your Website",
+      "text": "Blazing fast web hosting for individuals and businesses of all sizes backed by 24x7x365 Support.",
+      "createAccount": "Create an Account",
+      "choosePlan": "Choose your plan"
+    },
+    "cloudSection": {
+      "title": "True Cloud Web Hosting",
+      "text": "All of the hosting packages we offer are deployed instantly on our SSD powered cloud. We don’t use dedicated servers that operate on single pieces of hardware. Our entire infrastructure is built to be reliable, secure, and scalable."
+    },
+    "features": {
+      "uptime": {
+        "title": "99.9% Uptime",
+        "desc": "We keep your website online 24x7x365. Downtime not only costs visitors but also damages your reputation and search ranking."
+      },
+      "speed": {
+        "title": "Blazing Fast Web Hosting",
+        "desc": "Experience incredible loading speeds powered by modern cloud technology."
+      },
+      "ssl": {
+        "title": "Free SSL Certificates",
+        "desc": "Protect your data with free SSL certificates on all our hosting plans."
+      },
+      "support": {
+        "title": "24x7 Friendly Support",
+        "desc": "Our support team is available anytime to help you with all your hosting needs."
+      }
+    },
+    "pricing": {
+      "title": "Ready to get started with Lemon Wares?",
+      "subtitle": "Choose the package that suits you",
+      "monthly": "Monthly",
+      "yearly": "Yearly",
+      "discount": "20% discount",
+      "plans": {
+        "basic": {
+          "name": "Basic",
+          "starter": "Starter",
+          "standard": "Standard",
+          "supreme": "Supreme",
+          "description": "Communicate with all your customers via all conversation channels in one central dashboard.",
+          "perMonth": "Per month",
+          "choosePlan": "Choose this plan"
+        },
+        "premium": {
+          "name": "Premium",
+          "pro": "Pro",
+          "enterprise": "Enterprise",
+          "ultimate": "Ultimate",
+          "proDesc": "Advanced features for professionals and high-performance needs.",
+          "enterpriseDesc": "Scalable, secure hosting for large enterprises and e-commerce.",
+          "ultimateDesc": "Everything you need for mission-critical, high-availability hosting."
+        }
+      }
+    },
+    "stories": {
+      "title": "Real Stories from Real Customers",
+      "subtitle": "Get inspired by these stories.",
+      "clients": [
+        {
+          "name": "Floyd Miles",
+          "position": "Vice President, CLI",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis..."
+        },
+        {
+          "name": "Jane Cooper",
+          "position": "CEO, JPNL",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis..."
+        },
+        {
+          "name": "Kristin Watson",
+          "position": "Co-Founder, LeeveOn Branding",
+          "text": "LemonWares saved our time in hosting my company page."
+        }
+      ]
+    },
+    "served": {
+      "title": "We serve over 100 Nigerian Websites",
+      "text": "Connect LemonWares with your favourite tools that you use daily and keep things on track."
+    },
+    "contact": {
+      "title": "We're here to make your website awesome.",
+      "button": "Get in touch with us"
+    },
+    "footer": {
+      "aboutText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis...",
+      "copyright": "Copyrights 2025, All rights reserved",
+      "sections": {
+        "service": "Service",
+        "hosting": "Hosting",
+        "company": "Company",
+        "help": "Help"
+      },
+      "links": {
+        "service": [
+          "Domain",
+          "Shared Hosting",
+          "Cloud Hosting",
+          "Private Hosting"
+        ],
+        "hosting": [
+          "Cheap Hosting",
+          "Hosting Wordpress",
+          "Email Hosting",
+          "Hosting Unlimited"
+        ],
+        "company": ["About", "Career", "Contact us"],
+        "help": ["FAQ", "Help support"]
+      }
+    }
+  },
+  "ar": {
+    "navbar": {
+      "services": "خدماتنا",
+      "about": "من نحن",
+      "blogs": "المدونة والأخبار",
+      "contact": "اتصل بنا",
+      "account": "الحساب",
+      "phone": "+2349067322844"
+    },
+    "hero": {
+      "title": "استضافة ويب مميزة لموقعك الإلكتروني",
+      "text": "استضافة سريعة جداً للأفراد والشركات من جميع الأحجام مع دعم فني متواصل 24/7/365.",
+      "createAccount": "أنشئ حسابًا",
+      "choosePlan": "اختر خطتك"
+    },
+    "cloudSection": {
+      "title": "استضافة ويب سحابية حقيقية",
+      "text": "جميع باقات الاستضافة لدينا يتم تشغيلها فوراً على سحابتنا المدعومة بأقراص SSD. لا نستخدم خوادم مخصصة تقليدية؛ كل بنيتنا التحتية موثوقة وآمنة وقابلة للتوسع."
+    },
+    "features": {
+      "uptime": {
+        "title": "تشغيل بنسبة 99.9٪",
+        "desc": "نحافظ على موقعك متصلًا دائمًا 24/7/365. فالتوقف يسبب خسارة الزوار ويضر بسمعتك وترتيبك في محركات البحث."
+      },
+      "speed": {
+        "title": "استضافة ويب فائقة السرعة",
+        "desc": "استمتع بسرعة تحميل مذهلة بفضل التكنولوجيا السحابية الحديثة."
+      },
+      "ssl": {
+        "title": "شهادات SSL مجانية",
+        "desc": "احمِ بياناتك باستخدام شهادات SSL مجانية في جميع خطط الاستضافة."
+      },
+      "support": {
+        "title": "دعم فني ودود على مدار الساعة",
+        "desc": "فريق الدعم لدينا متاح دائمًا لمساعدتك في جميع احتياجات الاستضافة."
+      }
+    },
+    "pricing": {
+      "title": "هل أنت جاهز للبدء مع Lemon Wares؟",
+      "subtitle": "اختر الباقة التي تناسبك",
+      "monthly": "شهريًا",
+      "yearly": "سنويًا",
+      "discount": "خصم 20%",
+      "plans": {
+        "basic": {
+          "name": "أساسي",
+          "starter": "مبتدئ",
+          "standard": "قياسي",
+          "supreme": "فاخر",
+          "description": "تواصل مع جميع عملائك عبر كل قنوات المحادثة من لوحة تحكم مركزية واحدة.",
+          "perMonth": "شهريًا",
+          "choosePlan": "اختر هذه الخطة"
+        },
+        "premium": {
+          "name": "ممتاز",
+          "pro": "احترافي",
+          "enterprise": "مؤسسات",
+          "ultimate": "نهائي",
+          "proDesc": "ميزات متقدمة للمحترفين واحتياجات الأداء العالي.",
+          "enterpriseDesc": "استضافة آمنة وقابلة للتوسع للمؤسسات الكبيرة والمتاجر الإلكترونية.",
+          "ultimateDesc": "كل ما تحتاجه لاستضافة موثوقة عالية التوفر."
+        }
+      }
+    },
+    "stories": {
+      "title": "قصص حقيقية من عملائنا الحقيقيين",
+      "subtitle": "استلهم من هذه القصص.",
+      "clients": [
+        {
+          "name": "فلويد مايلز",
+          "position": "نائب الرئيس، CLI",
+          "text": "لوريم إيبسوم دولور سيت أميت، كونسيكتيتور أديبيسكنغ إيليت..."
+        },
+        {
+          "name": "جين كوبر",
+          "position": "المدير التنفيذي، JPNL",
+          "text": "لوريم إيبسوم دولور سيت أميت، كونسيكتيتور أديبيسكنغ إيليت..."
+        },
+        {
+          "name": "كريستين واتسون",
+          "position": "الشريك المؤسس، LeeveOn Branding",
+          "text": "ساعدتنا LemonWares في توفير الوقت في استضافة موقع شركتنا."
+        }
+      ]
+    },
+    "served": {
+      "title": "نخدم أكثر من 100 موقع نيجيري",
+      "text": "اربط LemonWares بأدواتك المفضلة التي تستخدمها يوميًا للحفاظ على سير عملك بسلاسة."
+    },
+    "contact": {
+      "title": "نحن هنا لجعل موقعك رائعًا.",
+      "button": "تواصل معنا"
+    },
+    "footer": {
+      "aboutText": "لوريم إيبسوم دولور سيت أميت، كونسيكتيتور أديبيسكنغ إيليت...",
+      "copyright": "حقوق النشر 2025، جميع الحقوق محفوظة",
+      "sections": {
+        "service": "الخدمات",
+        "hosting": "الاستضافة",
+        "company": "الشركة",
+        "help": "المساعدة"
+      },
+      "links": {
+        "service": [
+          "النطاقات",
+          "الاستضافة المشتركة",
+          "الاستضافة السحابية",
+          "الاستضافة الخاصة"
+        ],
+        "hosting": [
+          "استضافة رخيصة",
+          "استضافة ووردبريس",
+          "استضافة البريد الإلكتروني",
+          "الاستضافة غير المحدودة"
+        ],
+        "company": ["من نحن", "الوظائف", "اتصل بنا"],
+        "help": ["الأسئلة الشائعة", "دعم المساعدة"]
+      }
+    }
+  }
+}

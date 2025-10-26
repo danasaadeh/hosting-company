@@ -26,7 +26,13 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
     />
-
+    <!-- RTL Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.rtl.min.css"
+      integrity="sha384-CfCrinSRH2IR6a4e6fy2q6ioOX7O6Mtm1L9vRvFZ1trBncWmMePhzvafv7oIcWiW"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./style.css" />
     <title>Hosting Company</title>
   </head>
@@ -60,23 +66,61 @@
             class="collapse navbar-collapse d-lg-flex justify-content-between"
             id="mainNav"
           >
-            <ul class="navbar-nav">
+            <ul class="navbar-nav ms-lg-3 me-auto me-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" href="#">Our Services</a>
+                <a
+                  class="nav-link active mb-3"
+                  href="#"
+                  data-i18n="navbar.services"
+                  >Our Services</a
+                >
+              </li>
+            </ul>
+
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#" data-i18n="navbar.about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" data-i18n="navbar.blogs"
+                  >Blogs & News</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" data-i18n="navbar.contact"
+                  >Contact</a
+                >
+              </li>
+              <li class="nav-item dropdown px-3">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="languageDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >EN</a
+                >
+                <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                  <li>
+                    <a class="dropdown-item lang-option" href="#" data-lang="en"
+                      >English</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item lang-option" href="#" data-lang="ar"
+                      >العربية</a
+                    >
+                  </li>
+                </ul>
               </li>
             </ul>
 
             <ul class="navbar-nav">
-              <li class="nav-item"><a class="nav-link" href="#">About</a></li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Blogs & News</a>
-              </li>
-              <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-            </ul>
-
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link p-0" href="#">Account</a>
+                <a class="nav-link p-0" href="#" data-i18n="navbar.account"
+                  >Account</a
+                >
               </li>
               <div class="vr mx-3"></div>
 
@@ -99,23 +143,31 @@
               <div class="swiper-slide">
                 <div class="row align-items-center gy-4">
                   <div class="col-lg-6">
-                    <h1 class="display-5 fw-bold text-primary hero-title">
+                    <h1
+                      class="display-5 fw-bold text-primary hero-title"
+                      data-i18n="hero.title"
+                    >
                       Premium Web <br />Hosting for Your<br />
                       Website
                     </h1>
 
-                    <p class="text">
-                      Blazing fast web hosting for individuals and <br />
+                    <p class="text" data-i18n="hero.text">
+                      Blazing fast web hosting for individuals and<br />
                       businesses of all sizes backed by 24x7x365 Support.
                     </p>
                     <div class="mt-5">
-                      <button type="button" class="btn btn-danger mx-3">
+                      <button
+                        type="button"
+                        class="btn btn-danger mx-3"
+                        data-i18n="hero.createAccount"
+                      >
                         Create an Account
                       </button>
 
                       <button
                         type="button"
                         class="btn btn-outline-secondary mx-3"
+                        data-i18n="hero.choosePlan"
                       >
                         Choose your plan
                       </button>
@@ -153,23 +205,31 @@
               <div class="swiper-slide">
                 <div class="row align-items-center gy-4">
                   <div class="col-lg-6">
-                    <h1 class="display-5 fw-bold text-primary hero-title">
+                    <h1
+                      class="display-5 fw-bold text-primary hero-title"
+                      data-i18n="hero.title"
+                    >
                       Premium Web <br />Hosting for Your<br />
                       Website
                     </h1>
 
-                    <p class="text">
+                    <p class="text" data-i18n="hero.text">
                       Blazing fast web hosting for individuals and <br />
                       businesses of all sizes backed by 24x7x365 Support.
                     </p>
                     <div class="mt-5">
-                      <button type="button" class="btn btn-danger mx-3">
+                      <button
+                        type="button"
+                        class="btn btn-danger mx-3"
+                        data-i18n="hero.createAccount"
+                      >
                         Create an Account
                       </button>
 
                       <button
                         type="button"
                         class="btn btn-outline-secondary mx-3"
+                        data-i18n="hero.choosePlan"
                       >
                         Choose your plan
                       </button>
@@ -191,23 +251,31 @@
               <div class="swiper-slide">
                 <div class="row align-items-center gy-4">
                   <div class="col-lg-6">
-                    <h1 class="display-5 fw-bold text-primary hero-title">
+                    <h1
+                      class="display-5 fw-bold text-primary hero-title"
+                      data-i18n="hero.title"
+                    >
                       Premium Web <br />Hosting for Your<br />
                       Website
                     </h1>
 
-                    <p class="text">
+                    <p class="text" data-i18n="hero.text">
                       Blazing fast web hosting for individuals and <br />
                       businesses of all sizes backed by 24x7x365 Support.
                     </p>
                     <div class="mt-5">
-                      <button type="button" class="btn btn-danger mx-3">
+                      <button
+                        type="button"
+                        class="btn btn-danger mx-3"
+                        data-i18n="hero.createAccount"
+                      >
                         Create an Account
                       </button>
 
                       <button
                         type="button"
                         class="btn btn-outline-secondary mx-3"
+                        data-i18n="hero.choosePlan"
                       >
                         Choose your plan
                       </button>
@@ -236,9 +304,11 @@
         <div class="container">
           <div class="row align-items-center gy-4">
             <div class="col-lg-6">
-              <h1 class="fw-bold text-primary">True Cloud Web Hosting</h1>
+              <h1 class="fw-bold text-primary" data-i18n="cloudSection.title">
+                True Cloud Web Hosting
+              </h1>
 
-              <p class="texth">
+              <p class="texth" data-i18n="cloudSection.text">
                 True Cloud Web Hosting All of the hosting packages we offer
                 are<br />
                 deployed instantly on our SSD powered cloud. We don’t use<br />
@@ -299,8 +369,17 @@
                   <div class="col-md-6 col-lg-3 feat-card">
                     <div class="feat-card-body text-center">
                       <img src="images/clock.svg" alt="" />
-                      <h5 class="mt-3 textn fw-bold">99.9% Uptime</h5>
-                      <p class="mb-0 textn" style="font-size: 0.8rem">
+                      <h5
+                        class="mt-3 textn fw-bold"
+                        data-i18n="features.uptime.title"
+                      >
+                        99.9% Uptime
+                      </h5>
+                      <p
+                        class="mb-0 textn"
+                        style="font-size: 0.8rem"
+                        data-i18n="features.uptime.desc"
+                      >
                         We Keep Your Web build Online 24x7x365.<br />
                         Downtime not only costs you lost visitors<br />
                         but also damages your reputation and<br />
@@ -312,10 +391,17 @@
                   <div class="col-md-6 col-lg-3 feat-card">
                     <div class="feat-card-body text-center">
                       <img src="images/cloud.svg" alt="" />
-                      <h5 class="mt-3 textn fw-bold">
+                      <h5
+                        class="mt-3 textn fw-bold"
+                        data-i18n="features.speed.title"
+                      >
                         Blazing Fast Web Hosting
                       </h5>
-                      <p class="mb-0 textn" style="font-size: 0.8rem">
+                      <p
+                        class="mb-0 textn"
+                        style="font-size: 0.8rem"
+                        data-i18n="features.speed.desc"
+                      >
                         We Keep Your Web build Online 24x7x365.<br />
                         Downtime not only costs you lost visitors<br />
                         but also damages your reputation and<br />
@@ -327,8 +413,17 @@
                   <div class="col-md-6 col-lg-3 feat-card">
                     <div class="feat-card-body text-center">
                       <img src="images/image.svg" alt="" />
-                      <h5 class="mt-3 textn fw-bold">Free SSL Certificates</h5>
-                      <p class="mb-0 textn" style="font-size: 0.8rem">
+                      <h5
+                        class="mt-3 textn fw-bold"
+                        data-i18n="features.ssl.title"
+                      >
+                        Free SSL Certificates
+                      </h5>
+                      <p
+                        class="mb-0 textn"
+                        style="font-size: 0.8rem"
+                        data-i18n="features.ssl.desc"
+                      >
                         We Keep Your Web build Online 24x7x365.<br />
                         Downtime not only costs you lost visitors<br />
                         but also damages your reputation and<br />
@@ -339,8 +434,17 @@
                   <div class="col-md-6 col-lg-3 feat-card">
                     <div class="feat-card-body text-center">
                       <img src="images/headphones.svg" alt="" />
-                      <h5 class="mt-3 textn fw-bold">24x7 Friendly Support</h5>
-                      <p class="mb-0 textn" style="font-size: 0.8rem">
+                      <h5
+                        class="mt-3 textn fw-bold"
+                        data-i18n="features.support.title"
+                      >
+                        24x7 Friendly Support
+                      </h5>
+                      <p
+                        class="mb-0 textn"
+                        style="font-size: 0.8rem"
+                        data-i18n="features.support.desc"
+                      >
                         We Keep Your Web build Online 24x7x365.<br />
                         Downtime not only costs you lost visitors<br />
                         but also damages your reputation and<br />
@@ -483,13 +587,18 @@
       <section id="pricing" class="py-5">
         <div class="container">
           <div class="text-center mb-5">
-            <h2 class="fw-bold display-4 text-primary">
+            <h2
+              class="fw-bold display-4 text-primary"
+              data-i18n="pricing.title"
+            >
               Ready to get started with<br />
               Lemon Wares?
             </h2>
-            <h5 class="text-primary">Choose the package that suits you</h5>
+            <h5 class="text-primary" data-i18n="pricing.subtitle">
+              Choose the package that suits you
+            </h5>
             <div class="d-flex justify-content-center mt-4 toggle-wrapper">
-              <p class="toggle-label">Monthly</p>
+              <p class="toggle-label" data-i18n="pricing.monthly">Monthly</p>
 
               <div class="form-check form-switch">
                 <input
@@ -499,9 +608,11 @@
                 />
               </div>
 
-              <p class="toggle-label">Yearly</p>
+              <p class="toggle-label" data-i18n="pricing.yearlyy">Yearly</p>
 
-              <span class="discount-badge">20% discount</span>
+              <span class="discount-badge" data-i18n="pricing.discount"
+                >20% discount</span
+              >
             </div>
           </div>
         </div>
@@ -518,6 +629,7 @@
               role="tab"
               aria-controls="basic-tab-pane"
               aria-selected="true"
+              data-i18n="pricing.plans.basic.name"
               >Basic</a
             >
           </li>
@@ -530,6 +642,7 @@
               role="tab"
               aria-controls="premium-tab-pane"
               aria-selected="false"
+              data-i18n="pricing.plans.premium.name"
               >Premium</a
             >
           </li>
@@ -548,20 +661,33 @@
               <div class="col-md-5 col-lg-3 d-flex justify-content-center">
                 <div class="card price-card h-100" style="width: 300px">
                   <div class="price-card-body text-center">
-                    <h5 class="mt-3 black fw-bold">Starter</h5>
-                    <p class="mb-0 texth fw-normal">
+                    <h5
+                      class="mt-3 black fw-bold"
+                      data-i18n="pricing.plans.basic.starter"
+                    >
+                      Starter
+                    </h5>
+                    <p
+                      class="mb-0 texth fw-normal"
+                      data-i18n="pricing.plans.basic.description"
+                    >
                       with all your customers via all <br />conversation
                       channels in one central <br />dashboard.
                     </p>
                     <h6 id="price-starter" class="mt-3 black display-5 fw-bold">
                       $2.80
                     </h6>
-                    <p id="period-starter" class="mb-3 texth fw-normal">
+                    <p
+                      id="period-starter"
+                      class="mb-3 texth fw-normal"
+                      data-i18n="pricing.plans.basic.perMonth"
+                    >
                       Per month
                     </p>
                     <button
                       type="button"
                       class="btn price-btn-outline-secondary my-2 px-2 fw-bold"
+                      data-i18n="pricing.plans.basic.choosePlan"
                     >
                       Choose this plan
                     </button>
@@ -612,8 +738,16 @@
               <div class="col-md-5 col-lg-3 d-flex justify-content-center">
                 <div class="card price-card h-100" style="width: 300px">
                   <div class="price-card-body text-center">
-                    <h5 class="mt-3 black fw-bold">Standard</h5>
-                    <p class="mb-0 texth fw-normal">
+                    <h5
+                      class="mt-3 black fw-bold"
+                      data-i18n="pricing.plans.basic.standard"
+                    >
+                      Standard
+                    </h5>
+                    <p
+                      class="mb-0 texth fw-normal"
+                      data-i18n="pricing.plans.basic.description"
+                    >
                       with all your customers via all <br />conversation
                       channels in one central <br />dashboard.
                     </p>
@@ -623,12 +757,17 @@
                     >
                       $4.20
                     </h6>
-                    <p id="period-standard" class="mb-3 texth fw-normal">
+                    <p
+                      id="period-standard"
+                      class="mb-3 texth fw-normal"
+                      data-i18n="pricing.plans.basic.perMonth"
+                    >
                       Per month
                     </p>
                     <button
                       type="button"
                       class="btn price-btn-outline-secondary my-2 px-4 fw-bold"
+                      data-i18n="pricing.plans.basic.choosePlan"
                     >
                       Choose this plan
                     </button>
@@ -679,20 +818,33 @@
               <div class="col-md-5 col-lg-3 d-flex justify-content-center">
                 <div class="card price-card h-100" style="width: 300px">
                   <div class="price-card-body text-center">
-                    <h5 class="mt-3 black fw-bold">Suprem</h5>
-                    <p class="mb-0 texth fw-normal">
+                    <h5
+                      class="mt-3 black fw-bold"
+                      data-i18n="pricing.plans.basic.suprem"
+                    >
+                      Suprem
+                    </h5>
+                    <p
+                      class="mb-0 texth fw-normal"
+                      data-i18n="pricing.plans.basic.description"
+                    >
                       with all your customers via all <br />conversation
                       channels in one central <br />dashboard.
                     </p>
                     <h6 id="price-suprem" class="mt-3 black display-5 fw-bold">
                       $7.00
                     </h6>
-                    <p id="period-suprem" class="mb-3 texth fw-normal">
+                    <p
+                      id="period-suprem"
+                      class="mb-3 texth fw-normal"
+                      data-i18n="pricing.plans.basic.perMonth"
+                    >
                       Per month
                     </p>
                     <button
                       type="button"
                       class="btn price-btn-outline-secondary my-2 px-4 fw-bold"
+                      data-i18n="pricing.plans.basic,choosePlan"
                     >
                       Choose this plan
                     </button>
@@ -753,18 +905,34 @@
               <div class="col-md-5 col-lg-3 d-flex justify-content-center">
                 <div class="card price-card h-100" style="width: 300px">
                   <div class="price-card-body text-center">
-                    <h5 class="mt-3 black fw-bold">Pro</h5>
-                    <p class="mb-0 text-secondary" style="font-size: 0.9rem">
+                    <h5
+                      class="mt-3 black fw-bold"
+                      data-i18n="pricing.plans.premium.pro"
+                    >
+                      Pro
+                    </h5>
+                    <p
+                      class="mb-0 text-secondary"
+                      style="font-size: 0.9rem"
+                      data-i18n="pricing.plans.premium.proDesc"
+                    >
                       Advanced features for professionals<br />
                       and high-performance needs.
                     </p>
                     <h6 id="price-pro" class="mt-3 black display-5 fw-bold">
                       $9.99
                     </h6>
-                    <p id="period-pro" class="mb-3 text-secondary">Per month</p>
+                    <p
+                      id="period-pro"
+                      class="mb-3 text-secondary"
+                      data-i18n="pricing.plans.basic.perMonth"
+                    >
+                      Per month
+                    </p>
                     <button
                       type="button"
                       class="btn price-btn-outline-secondary my-2 px-2 fw-bold"
+                      data-i18n="pricing.plans.basic.choosePlan"
                     >
                       Choose this plan
                     </button>
@@ -815,8 +983,17 @@
               <div class="col-md-5 col-lg-3 d-flex justify-content-center">
                 <div class="card price-card h-100" style="width: 300px">
                   <div class="price-card-body text-center">
-                    <h5 class="mt-3 black fw-bold">Enterprise</h5>
-                    <p class="mb-0 text-secondary" style="font-size: 0.9rem">
+                    <h5
+                      class="mt-3 black fw-bold"
+                      data-i18n="pricing.plans.premium.enterprise"
+                    >
+                      Enterprise
+                    </h5>
+                    <p
+                      class="mb-0 text-secondary"
+                      style="font-size: 0.9rem"
+                      data-i18n="pricing.plans.premium.enterpriseDesc"
+                    >
                       Scalable, secure hosting for<br />
                       large enterprises and e-commerce.
                     </p>
@@ -826,12 +1003,17 @@
                     >
                       $19.99
                     </h6>
-                    <p id="period-enterprise" class="mb-3 text-secondary">
+                    <p
+                      id="period-enterprise"
+                      class="mb-3 text-secondary"
+                      data-i18n="pricing.plans.basic.perMonth"
+                    >
                       Per month
                     </p>
                     <button
                       type="button"
                       class="btn price-btn-outline-secondary my-2 px-4 fw-bold"
+                      data-i18n="pricing.plans.basic.choosePlan"
                     >
                       Choose this plan
                     </button>
@@ -882,8 +1064,17 @@
               <div class="col-md-5 col-lg-3 d-flex justify-content-center">
                 <div class="card price-card h-100" style="width: 300px">
                   <div class="price-card-body text-center">
-                    <h5 class="mt-3 black fw-bold">Ultimate</h5>
-                    <p class="mb-0 text-secondary" style="font-size: 0.9rem">
+                    <h5
+                      class="mt-3 black fw-bold"
+                      data-i18n="pricing.plans.premium.ultimate"
+                    >
+                      Ultimate
+                    </h5>
+                    <p
+                      class="mb-0 text-secondary"
+                      style="font-size: 0.9rem"
+                      data-i18n="pricing.plans.premium.ultimateDesc"
+                    >
                       Everything you need for mission-critical<br />
                       high-availability hosting.
                     </p>
@@ -893,12 +1084,17 @@
                     >
                       $49.99
                     </h6>
-                    <p id="period-ultimate" class="mb-3 text-secondary">
+                    <p
+                      id="period-ultimate"
+                      class="mb-3 text-secondary"
+                      data-i18n="pricing.plans.basic.perMonth"
+                    >
                       Per month
                     </p>
                     <button
                       type="button"
                       class="btn price-btn-outline-secondary my-2 px-4 fw-bold"
+                      data-i18n="pricing.plans.basic.choosePlan"
                     >
                       Choose this plan
                     </button>
@@ -952,12 +1148,14 @@
       <!-- Real Stories -->
       <section class="stories-section">
         <div class="container header-with-quote">
-          <img src="images/Quote Mark.png " class="big-quote" />
+          <img src="images/Quote Mark.png" class="big-quote" />
           <div class="title-wrapper">
-            <h2 class="display-3 fw-bold">
+            <h2 class="display-3 fw-bold" data-i18n="stories.title">
               Real Stories from <br />Real Customers
             </h2>
-            <p class="texth">Get inspired by these stories.</p>
+            <p class="texth" data-i18n="stories.subtitle">
+              Get inspired by these stories.
+            </p>
           </div>
         </div>
 
@@ -966,19 +1164,18 @@
             <div class="col-lg-3 mx-4 mb-2">
               <div class="card" style="width: 18rem">
                 <div class="card-body">
-                  <img src="images/cli.svg" alt="" />
-
-                  <p class="card-text">
+                  <img src="images/cli.svg" alt="Client 1" />
+                  <p class="card-text" data-i18n="stories.clients.0.text">
                     <img src="images/Quote Mark.svg" />
-                    Lorem ipsum dolor sit amet, <br />
-                    consectetur adipiscing elit ut <br />aliquam, purus sit amet
-                    luctus<br />
-                    venenatis, lectus magna fringilla <br />urna, porttitor
-                    rhoncus dolor<br />
-                    purus non enim praesent elem
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+                    aliquam, purus sit amet luctus venenatis...
                   </p>
-                  <h5 class="fw-bold">Floyd Miles</h5>
-                  <h6 class="text">Vice President, CLI</h6>
+                  <h5 class="fw-bold" data-i18n="stories.clients.0.name">
+                    Floyd Miles
+                  </h5>
+                  <h6 class="text" data-i18n="stories.clients.0.position">
+                    Vice President, CLI
+                  </h6>
                 </div>
               </div>
             </div>
@@ -988,35 +1185,36 @@
                 <div class="col-12 mb-4">
                   <div class="card" style="width: 22rem">
                     <div class="card-body">
-                      <img src="images/jpnl.svg" alt="" />
-
-                      <p class="card-text">
+                      <img src="images/jpnl.svg" alt="Client 2" />
+                      <p class="card-text" data-i18n="stories.clients.1.text">
                         <img src="images/Quote Mark.svg" />
-                        Lorem ipsum dolor sit amet, consectetur<br />
-                        adipiscing elit ut aliquam, purus sit amet
-                        <br />luctus venenatis, lectus magna fringilla urna,
-                        <br />
-                        porttitor rhoncus dolor purus non enim<br />
-                        praesent elem
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        ut aliquam, purus sit amet luctus venenatis...
                       </p>
-                      <h5 class="fw-bold">Jane Cooper</h5>
-                      <h6 class="text">CEO, JPNL</h6>
+                      <h5 class="fw-bold" data-i18n="stories.clients.1.name">
+                        Jane Cooper
+                      </h5>
+                      <h6 class="text" data-i18n="stories.clients.1.position">
+                        CEO, JPNL
+                      </h6>
                     </div>
                   </div>
                 </div>
+
                 <div class="col-12">
                   <div class="card" style="width: 18rem">
                     <div class="card-body">
-                      <img src="images/leeve.svg" alt="" />
-
-                      <p class="card-text">
+                      <img src="images/leeve.svg" alt="Client 3" />
+                      <p class="card-text" data-i18n="stories.clients.2.text">
                         <img src="images/Quote Mark.svg" />
-                        LemonWares saved our time<br />
-                        in Hosting my company page.
+                        LemonWares saved our time in hosting my company page.
                       </p>
-                      <h5 class="fw-bold">Kristin Watson</h5>
-
-                      <h6 class="text">Co-Founder, LeeveOn Branding</h6>
+                      <h5 class="fw-bold" data-i18n="stories.clients.2.name">
+                        Kristin Watson
+                      </h5>
+                      <h6 class="text" data-i18n="stories.clients.2.position">
+                        Co-Founder, LeeveOn Branding
+                      </h6>
                     </div>
                   </div>
                 </div>
@@ -1031,12 +1229,15 @@
         <div class="container">
           <div class="row align-items-center gy-4">
             <div class="col-lg-6">
-              <h1 class="display-5 fw-bold text-primary hero-title">
+              <h1
+                class="display-5 fw-bold text-primary hero-title"
+                data-i18n="served.title"
+              >
                 We serve over 100<br />
                 Nigerian Websites
               </h1>
 
-              <p class="texth">
+              <p class="texth" data-i18n="served.text">
                 Connect LemonWares with your favourite tools that<br />
                 you use daily and keep things on track.
               </p>
@@ -1045,22 +1246,22 @@
               <div class="container text-center">
                 <div class="row row-cols-3">
                   <div class="col">
-                    <img src="images/jpnl.svg" class="logo-img" />
+                    <img src="images/jpnl.svg" class="logo-img img-fluid" />
                   </div>
                   <div class="col">
-                    <img src="images/scents.svg" class="logo-img" />
+                    <img src="images/scents.svg" class="logo-img img-fluid" />
                   </div>
                   <div class="col">
-                    <img src="images/nadine.svg" class="logo-img" />
+                    <img src="images/nadine.svg" class="logo-img img-fluid" />
                   </div>
                   <div class="col">
-                    <img src="images/leeve.svg" class="logo-img" />
+                    <img src="images/leeve.svg" class="logo-img img-fluid" />
                   </div>
                   <div class="col">
-                    <img src="images/glasses.svg" class="logo-img" />
+                    <img src="images/glasses.svg" class="logo-img img-fluid" />
                   </div>
                   <div class="col">
-                    <img src="images/cli.svg" class="logo-img" />
+                    <img src="images/cli.svg" class="logo-img img-fluid" />
                   </div>
                 </div>
               </div>
@@ -1097,13 +1298,20 @@
             class="triangle bottom-right-triangle"
           />
           <div class="contact-box text-center">
-            <h2 class="fw-bold text-primary fw-bold mb-4">
+            <h2
+              class="fw-bold text-primary fw-bold mb-4"
+              data-i18n="contact.title"
+            >
               We're here to make your<br />
               website awesome.
             </h2>
 
-            <button type="button" class="btn btn-danger">
-              <i class="bi bi-whatsapp"></i>
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-i18n="contact.button"
+            >
+              <i class="bi bi-whatsapp mx-2"></i>
               Get in touch with us
             </button>
           </div>
@@ -1117,13 +1325,11 @@
         <!-- Logo and text -->
         <div class="col-md-3">
           <img src="images/logo_white.svg" alt="Logo" width="150" />
-          <p class="mt-3 bg">
-            Lorem ipsum dolor sit amet, <br />
-            consectetur adipiscing elit ut aliquam,<br />
-            purus sit amet luctus venenatis, lectus <br />magna fringilla urna,
-            porttitor rhoncus<br />
-            dolor purus non enim praesent elem
+          <p class="mt-3 bg" data-i18n="footer.aboutText">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+            purus sit amet luctus venenatis...
           </p>
+
           <!-- Social Icons -->
           <div
             class="d-flex justify-content-start align-items-start gap-5 mb-4"
@@ -1134,8 +1340,8 @@
             <a href="#" class="social-icon w-color"
               ><i class="bi bi-instagram"></i
             ></a>
-            <a href="#" class="social-icon w-color"
-              ><svg
+            <a href="#" class="social-icon w-color">
+              <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
                 height="16"
@@ -1145,60 +1351,186 @@
               >
                 <path
                   d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"
-                /></svg
-            ></a>
+                />
+              </svg>
+            </a>
           </div>
+
           <!-- Copyright -->
-          <div class= mt-4">
-          <small class="bg"> Copyrights 2025, All rights reserved </small>
+          <div class="mt-4">
+            <small class="bg" data-i18n="footer.copyright">
+              Copyrights 2025, All rights reserved
+            </small>
+          </div>
         </div>
-      </div>
 
-      <!-- Service -->
-      <div class="col-6 col-md-2">
-        <h6 class="fw-bold bg">Service</h6>
-        <ul class="footer-lists list-unstyled">
-          <li class="my-4"><a href="#" class="bg">Domain</a></li>
-          <li class="my-4"><a href="#" class="bg">Shared Hosting</a></li>
-          <li class="my-4"><a href="#" class="bg">Cloud Hosting</a></li>
-          <li class="my-4"><a href="#" class="bg">Private Hosting</a></li>
-        </ul>
-      </div>
-      <!-- Hosting -->
-      <div class="col-6 col-md-2">
-        <h6 class="fw-bold bg">Hosting</h6>
-        <ul class="footer-lists list-unstyled">
-          <li class="my-4"><a href="#" class="bg">Cheap Hosting</a></li>
-          <li class="my-4"><a href="#" class="bg">Hosting Wordpress</a></li>
-          <li class="my-4"><a href="#" class="bg">Email Hosting</a></li>
-          <li class="my-4"><a href="#" class="bg">Hosting Unlimited</a></li>
-        </ul>
-      </div>
+        <!-- Service -->
+        <div class="col-6 col-md-2">
+          <h6 class="fw-bold bg" data-i18n="footer.sections.service">
+            Service
+          </h6>
+          <ul class="footer-lists list-unstyled">
+            <li class="my-4">
+              <a href="#" class="bg" data-i18n="footer.links.service.0"
+                >Domain</a
+              >
+            </li>
+            <li class="my-4">
+              <a href="#" class="bg" data-i18n="footer.links.service.1"
+                >Shared Hosting</a
+              >
+            </li>
+            <li class="my-4">
+              <a href="#" class="bg" data-i18n="footer.links.service.2"
+                >Cloud Hosting</a
+              >
+            </li>
+            <li class="my-4">
+              <a href="#" class="bg" data-i18n="footer.links.service.3"
+                >Private Hosting</a
+              >
+            </li>
+          </ul>
+        </div>
 
-      <!-- Company -->
-      <div class="col-6 col-md-2">
-        <h6 class="fw-bold bg">Company</h6>
-        <ul class="footer-lists list-unstyled">
-          <li class="my-4"><a href="#" class="bg">About</a></li>
-          <li class="my-4"><a href="#" class="bg">Career</a></li>
-          <li class="my-4"><a href="#" class="bg">Contact us</a></li>
-        </ul>
-      </div>
-      <!-- Help -->
-      <div class="col-6 col-md-2">
-        <h6 class="fw-bold bg">Help</h6>
-        <ul class="footer-lists list-unstyled">
-          <li class="my-4"><a href="#" class="bg">FAQ</a></li>
-          <li class="my-4"><a href="#" class="bg">Help support</a></li>
-        </ul>
+        <!-- Hosting -->
+        <div class="col-6 col-md-2">
+          <h6 class="fw-bold bg" data-i18n="footer.sections.hosting">
+            Hosting
+          </h6>
+          <ul class="footer-lists list-unstyled">
+            <li class="my-4">
+              <a href="#" class="bg" data-i18n="footer.links.hosting.0"
+                >Cheap Hosting</a
+              >
+            </li>
+            <li class="my-4">
+              <a href="#" class="bg" data-i18n="footer.links.hosting.1"
+                >Hosting Wordpress</a
+              >
+            </li>
+            <li class="my-4">
+              <a href="#" class="bg" data-i18n="footer.links.hosting.2"
+                >Email Hosting</a
+              >
+            </li>
+            <li class="my-4">
+              <a href="#" class="bg" data-i18n="footer.links.hosting.3"
+                >Hosting Unlimited</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <!-- Company -->
+        <div class="col-6 col-md-2">
+          <h6 class="fw-bold bg" data-i18n="footer.sections.company">
+            Company
+          </h6>
+          <ul class="footer-lists list-unstyled">
+            <li class="my-4">
+              <a href="#" class="bg" data-i18n="footer.links.company.0"
+                >About</a
+              >
+            </li>
+            <li class="my-4">
+              <a href="#" class="bg" data-i18n="footer.links.company.1"
+                >Career</a
+              >
+            </li>
+            <li class="my-4">
+              <a href="#" class="bg" data-i18n="footer.links.company.2"
+                >Contact us</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <!-- Help -->
+        <div class="col-6 col-md-2">
+          <h6 class="fw-bold bg" data-i18n="footer.sections.help">Help</h6>
+          <ul class="footer-lists list-unstyled">
+            <li class="my-4">
+              <a href="#" class="bg" data-i18n="footer.links.help.0">FAQ</a>
+            </li>
+            <li class="my-4">
+              <a href="#" class="bg" data-i18n="footer.links.help.1"
+                >Help support</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
 
     <!-- Scripts -->
-
+    <script src="https://unpkg.com/i18next@23.4.6/dist/umd/i18next.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+      // Pricing toggle
+      const priceToggle = document.querySelector(".custom-switch-input");
 
-    <script src="./script.js"></script>
+      const prices = {
+        monthly: {
+          starter: 2.8,
+          standard: 4.2,
+          suprem: 7.0,
+          pro: 9.99,
+          enterprise: 19.99,
+          ultimate: 49.99,
+        },
+        yearly: {
+          // 20% discount
+          starter: (2.8 * 12 * 0.8).toFixed(2),
+          standard: (4.2 * 12 * 0.8).toFixed(2),
+          suprem: (7 * 12 * 0.8).toFixed(2),
+          pro: (9.99 * 12 * 0.8).toFixed(2),
+          enterprise: (19.99 * 12 * 0.8).toFixed(2),
+          ultimate: (49.99 * 12 * 0.8).toFixed(2),
+        },
+      };
+
+      const priceElements = {
+        starter: document.getElementById("price-starter"),
+        standard: document.getElementById("price-standard"),
+        suprem: document.getElementById("price-suprem"),
+        pro: document.getElementById("price-pro"),
+        enterprise: document.getElementById("price-enterprise"),
+        ultimate: document.getElementById("price-ultimate"),
+      };
+
+      const periodElements = {
+        starter: document.getElementById("period-starter"),
+        standard: document.getElementById("period-standard"),
+        suprem: document.getElementById("period-suprem"),
+        pro: document.getElementById("period-pro"),
+        enterprise: document.getElementById("period-enterprise"),
+        ultimate: document.getElementById("period-ultimate"),
+      };
+
+      priceToggle.addEventListener("change", () => {
+        if (priceToggle.checked) {
+          updatePrices("yearly");
+        } else {
+          updatePrices("monthly");
+        }
+      });
+
+      function updatePrices(type) {
+        Object.keys(priceElements).forEach((key) => {
+          const price = prices[type][key];
+          priceElements[key].textContent = `$${price}`;
+
+          if (type === "yearly") {
+            periodElements[key].textContent = "Per year (20% off)";
+          } else {
+            periodElements[key].textContent = "Per month";
+          }
+        });
+      }
+    </script>
+
+    <script src="./js/script.js"></script>
   </body>
 </html>
